@@ -7,15 +7,14 @@ For questions or bug reports, please contact Fabian Altekrüger (fabian.altekrue
 
 ## REQUIREMENTS
 
-We tested the code with python 3.9.13 and the following package versions:
-
-- pytorch 1.21.1
-- matplotlib 3.6.1
-- scikit-image 0.19.3
-- dival 0.6.1
-- odl 1.0.0
-
-Usually, the code is also compatible with some other versions of the corresponding packages.
+The code requires several Python packages. You can create a conda environment using `environment.yaml` by the command
+```python
+conda env create --file=environment.yaml
+```
+Additionally, you have to install the latest version of ODL via pip:
+```python
+pip install https://github.com/odlgroup/odl/archive/master.zip --upgrade
+```
 
 ## USAGE 
 
