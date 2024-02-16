@@ -1,7 +1,7 @@
 #This code belongs to the paper
 #P. Hagemann, J. Hertrich, F. Altekrüger, R. Beinert, J. Chemseddine, G. Steidl
 #Posterior Sampling Based on Gradient Flows of the MMD with Negative Distance Kernel
-#ArXiv preprint #2310.03054
+#International Conference on Learning Representations.
 #
 #It reproduces the material's microstructure superresolution example from Section 4.
 
