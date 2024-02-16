@@ -1,6 +1,6 @@
 # Posterior Sampling Based on Gradient Flows of the MMD with Negative Distance Kernel
 
-This code belongs to the paper 'Posterior Sampling Based on Gradient Flows of the MMD with Negative Distance Kernel' [1] available at https://arxiv.org/abs/2310.03054. Please cite the paper, if you use our code.
+This code belongs to the paper 'Posterior Sampling Based on Gradient Flows of the MMD with Negative Distance Kernel' [1] available at https://openreview.net/forum?id=YrXHEb2qMb. Please cite the paper, if you use our code.
 
 It contains implementations for the experiments of Section 4. 
 For questions or bug reports, please contact Fabian Altekrüger (fabian.altekrueger@hu-berlin.de) or Johannes Hertrich (j.hertrich@math.tu-berlin.de).
@@ -11,7 +11,7 @@ The code requires several Python packages. You can create a conda environment us
 ```python
 conda env create --file=environment.yaml
 ```
-Additionally, you have to install the latest version of ODL via pip:
+Additionally, for the CT example you have to install the latest version of ODL via pip:
 ```python
 pip install https://github.com/odlgroup/odl/archive/master.zip --upgrade
 ```
@@ -29,8 +29,19 @@ The used material's microstructures data, which you can find in the folder 'mate
 
 [1] P. Hagemann, J. Hertrich, F. Altekrüger, R. Beinert, J. Chemseddine, G. Steidl.
 Posterior Sampling Based on Gradient Flows of the MMD with Negative Distance Kernel.
-ArXiv preprint #2310.03054
+International Conference on Learning Representations 2024
 
 [2] J. Leuschner, M. Schmidt, D. O. Baguer and P. Maass.
 LoDoPaB-CT, a benchmark dataset for low-dose computed tomography reconstruction.
 Scientific Data, 9(109), 2021.
+
+## CITATION
+```python
+@inproceedings{HHABCS2024,
+    author    = {Hagemann, Paul and Hertrich, Johannes and Altekrüger, Fabian and Beinert, Robert and Chemseddine, Jannis and Steidl, Gabriele},
+    title     = {Posterior Sampling Based on Gradient Flows of the {MMD} with Negative Distance Kernel},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024}
+}
+```
+
